@@ -1,20 +1,27 @@
+body{
+    background-color: grey;
+}
 h3{
     text-align: center;
     text-decoration: underline;
     color: blue;
 }
 th{
-    border: 1px solid black;     
+    border: 1px solid black;    
+    background-color: rgb(43, 43, 92); 
+    
 }
 tbody td{
     border:  1px solid grey; 
     font-style: italic;
     font-weight: bold;
     text-align: center;
+    background-color: greenyellow;
    
 }
 .forms{
 border: 1px solid black; 
+background-color: aqua;
 
 
 }
@@ -25,11 +32,11 @@ select{
 margin-top: 3px;
 }
 table{
-margin-left: 600px;
+margin-left: 500px;
 }
 
 .details{
- margin:50px 0px 50px 700px;
+ margin:50px 0px 50px 650px;
  font-weight: bold
 
 }

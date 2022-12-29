@@ -11,7 +11,7 @@
  var countries = document.querySelector('.country')
  var tablerow =document.createElement('tr')
  var datas =[fname,lname,addr,pin,gend,foods,states,countries]
- if()
+
  for(var i=0;i<datas.length;i++){
     var tabledata = document.createElement('td')
     tabledata.innerText = datas[i].value
